@@ -1,13 +1,11 @@
-'use strict';
-var test = require('ava');
-var isTextPath = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(isTextPath('unicorn.txt'));
-	t.assert(isTextPath('unicorn.md'));
-	t.assert(isTextPath('unicorn.MD'));
-	t.assert(!isTextPath('unicorn.png'));
-	t.assert(!isTextPath('unicorn.zip'));
-	t.assert(!isTextPath('unicornzip'));
-	t.end();
+test(t => {
+	t.true(m('unicorn.txt'));
+	t.true(m('unicorn.md'));
+	t.true(m('unicorn.MD'));
+	t.false(m('unicorn.png'));
+	t.false(m('unicorn.zip'));
+	t.false(m('unicornzip'));
 });
