@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save is-text-path
+$ npm install is-text-path
 ```
 
 
 ## Usage
 
 ```js
-var isTextPath = require('is-text-path');
+const isTextPath = require('is-text-path');
 
 isTextPath('src/unicorn.txt');
 //=> true
@@ -31,4 +31,4 @@ isTextPath('src/unicorn.png');
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

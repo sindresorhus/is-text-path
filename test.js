@@ -1,11 +1,11 @@
 import test from 'ava';
-import m from './';
+import isTextPath from '.';
 
-test(t => {
-	t.true(m('unicorn.txt'));
-	t.true(m('unicorn.md'));
-	t.true(m('unicorn.MD'));
-	t.false(m('unicorn.png'));
-	t.false(m('unicorn.zip'));
-	t.false(m('unicornzip'));
+test('main', t => {
+	t.true(isTextPath('unicorn.txt'));
+	t.true(isTextPath('unicorn.md'));
+	t.true(isTextPath('unicorn.MD'));
+	t.false(isTextPath('unicorn.png'));
+	t.false(isTextPath('unicorn.zip'));
+	t.false(isTextPath('unicornzip'));
 });
