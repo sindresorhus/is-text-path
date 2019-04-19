@@ -1,7 +1,7 @@
 {
 	"name": "is-text-path",
 	"version": "1.0.1",
-	"description": "Check if a filepath is a text file",
+	"description": "Check if a file path is a text file",
 	"license": "MIT",
 	"repository": "sindresorhus/is-text-path",
 	"author": {
@@ -20,9 +20,7 @@
 		"index.d.ts"
 	],
 	"keywords": [
-		"txt",
 		"text",
-		"ext",
 		"extensions",
 		"extension",
 		"file",

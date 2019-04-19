@@ -1,6 +1,6 @@
 # is-text-path [![Build Status](https://travis-ci.org/sindresorhus/is-text-path.svg?branch=master)](https://travis-ci.org/sindresorhus/is-text-path)
 
-> Check if a filepath is a text file
+> Check if a file path is a text file
 
 
 ## Install
@@ -15,10 +15,10 @@ $ npm install is-text-path
 ```js
 const isTextPath = require('is-text-path');
 
-isTextPath('src/unicorn.txt');
+isTextPath('source/unicorn.txt');
 //=> true
 
-isTextPath('src/unicorn.png');
+isTextPath('source/unicorn.png');
 //=> false
 ```
 
@@ -26,7 +26,7 @@ isTextPath('src/unicorn.png');
 ## Related
 
 - [`text-extensions`](https://github.com/sindresorhus/text-extensions) - List of text file extensions
-- [`is-binary-path`](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file
+- [`is-binary-path`](https://github.com/sindresorhus/is-binary-path) - Check if a file path is a binary file
 
 
 ## License

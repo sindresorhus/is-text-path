@@ -1,14 +1,14 @@
 /**
-Check if a filepath is a text file.
+Check if a file path is a text file.
 
 @example
 ```
 import isTextPath = require('is-text-path');
 
-isTextPath('src/unicorn.txt');
+isTextPath('source/unicorn.txt');
 //=> true
 
-isTextPath('src/unicorn.png');
+isTextPath('source/unicorn.png');
 //=> false
 ```
 */
