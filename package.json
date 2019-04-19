@@ -32,7 +32,7 @@
 		"is"
 	],
 	"dependencies": {
-		"text-extensions": "^1.9.0"
+		"text-extensions": "^2.0.0"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
