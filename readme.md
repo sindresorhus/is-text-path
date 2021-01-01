@@ -1,4 +1,4 @@
-# is-text-path [![Build Status](https://travis-ci.org/sindresorhus/is-text-path.svg?branch=master)](https://travis-ci.org/sindresorhus/is-text-path)
+# is-text-path
 
 > Check if a file path is a text file
 
