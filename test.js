@@ -1,5 +1,5 @@
 import test from 'ava';
-import isTextPath from '.';
+import isTextPath from './index.js';
 
 test('main', t => {
 	t.true(isTextPath('unicorn.txt'));
